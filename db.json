@@ -1,0 +1,148 @@
+{
+  "restaurants": [
+    {
+      "id": "3",
+      "image": "https://i.pinimg.com/474x/13/1a/87/131a876b938f77ec8586faa8837aa2e8.jpg",
+      "name": "Matoke Samaki",
+      "cuisine": "Ugandan",
+      "location": "Kampala",
+      "available": true
+    },
+    {
+      "id": "7",
+      "image": "https://i.pinimg.com/474x/d2/ec/9d/d2ec9d914af5670fbbcc674fd985bbb5.jpg",
+      "name": "Jollof Joy",
+      "cuisine": "West African",
+      "location": "Lagos",
+      "available": true
+    },
+    {
+      "id": "9",
+      "image": "https://i.pinimg.com/474x/8f/2a/d5/8f2ad5ff208c4e340261aa2a0870bfa5.jpg",
+      "name": "Peking Duck House",
+      "cuisine": "Chinese",
+      "location": "Beijing",
+      "available": true
+    },
+    {
+      "id": "10",
+      "image": "https://i.pinimg.com/474x/41/3a/29/413a29d1942c5ea72d08d6696eb88af0.jpg",
+      "name": "Taco Time",
+      "cuisine": "Mexican",
+      "location": "Mexico City",
+      "available": true
+    },
+    {
+      "id": "11",
+      "image": "https://i.pinimg.com/474x/49/fa/68/49fa68680bde2d2ba0c108597a221d65.jpg",
+      "name": "Churrascaria",
+      "cuisine": "Brazilian",
+      "location": "Rio de Janeiro",
+      "available": true
+    },
+    {
+      "id": "12",
+      "image": "https://i.pinimg.com/474x/d1/f3/51/d1f35110f1e0c277e6a3fda90464bf57.jpg",
+      "name": "Bobotie Bistro",
+      "cuisine": "South African",
+      "location": "Cape Town",
+      "available": true
+    },
+    {
+      "id": "13",
+      "image": "https://i.pinimg.com/474x/34/5e/65/345e658a2eceb9fdcf3d645c344b2466.jpg",
+      "name": "Pad Thai Paradise",
+      "cuisine": "Thai",
+      "location": "Bangkok",
+      "available": true
+    },
+    {
+      "id": "41",
+      "image": "img/matoke.png",
+      "name": "Pho Phactory",
+      "cuisine": "Vietnamese",
+      "location": "Ho Chi Minh City",
+      "available": true
+    },
+    {
+      "id": "16",
+      "image": "https://i.pinimg.com/474x/c1/79/02/c1790215c0da478cfe6f45113a3f445b.jpg",
+      "name": "Falafel Haven",
+      "cuisine": "Middle Eastern",
+      "location": "Dubai",
+      "available": true
+    },
+    {
+      "id": "1",
+      "image": "img/matoke.png",
+      "name": "Kimchi Kingdom",
+      "cuisine": "Korean",
+      "location": "Seoul",
+      "available": true
+    },
+    {
+      "id": "18",
+      "image": "img/matoke.png",
+      "name": "Goulash Garden",
+      "cuisine": "Hungarian",
+      "location": "Budapest",
+      "available": true
+    },
+    {
+      "id": "101",
+      "image": "img/matoke.png",
+      "name": "Paella Palace",
+      "cuisine": "Spanish",
+      "location": "Madrid",
+      "available": true
+    },
+    {
+      "id": "178",
+      "image": "img/matoke.png",
+      "name": "Moussaka Mansion",
+      "cuisine": "Greek",
+      "location": "Athens",
+      "available": true
+    },
+    {
+      "id": "121",
+      "image": "https://i.pinimg.com/474x/c6/46/90/c6469087fbe1045becfe8272e831a377.jpg",
+      "name": "Curry Corner",
+      "cuisine": "Thai",
+      "location": "Chiang Mai",
+      "available": true
+    },
+    {
+      "id": "2de8",
+      "name": "Ugali",
+      "cuisine": "Kenyan",
+      "location": "Nairobi",
+      "image": "https://i.pinimg.com/474x/f1/92/7e/f1927ef33af20131797993d0780c85ea.jpg",
+      "available": true
+    },
+    {
+      "id": "b409",
+      "name": "Mbuzi Choma Baze",
+      "cuisine": "Kenyan",
+      "location": "Nairobi",
+      "image": "https://i.pinimg.com/474x/c0/2d/a7/c02da7829b808a10373f866147f2cb4a.jpg",
+      "available": true
+    },
+    {
+      "id": "c668",
+      "name": "Pasta Palace",
+      "cuisine": "Pasta Japanese",
+      "location": "Hong Kong",
+      "image": "C:\\fakepath\\shripm.jpg",
+      "available": true
+    },
+    {
+      "id": "8e8c",
+      "name": "Sushi ",
+      "cuisine": "FFF",
+      "location": "GGG",
+      "image": "C:\\fakepath\\japan.jpg",
+      "available": true
+    }
+  ]
+}

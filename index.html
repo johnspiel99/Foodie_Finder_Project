@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Finder App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/image.png" alt="Foodie Cuisine">
+        </header>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">MENU</a>
+            <a href="#">ORDER ONLINE</a>
+            <a href="#">GIFT VOUCHER</a>
+            <a href="#">CATERING</a>
+            <!-- <a href="#">CONTACT US</a> -->
+            <button class="contactUsBtn">CONTACT US</button>
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Search...">
+                <button class="search-button">Search</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="form_box">
+            <h1>Foodie Finder</h1>
+            <form id="restaurant-form">
+                <input type="text" id="name" placeholder="Restaurant Name" required>
+                <input type="text" id="cuisine" placeholder="Cuisine Type" required>
+                <input type="text" id="location" placeholder="Location" required>
+                <input type="file" id="image" accept="image/*" required>
+                <button type="submit">Add Restaurant</button>
+            </form>
+        </div>
+        <div class="list_box">
+            <h2>Restaurant List</h2>
+            <ul id="restaurant-list">
+                <li></li>
+            </ul>
+        </div>
+        <div class="cuisine_box">
+            <h2>Popular Cuisines</h2>
+            <div class="cuisine-images">
+                <div class="image-container">
+                    <img src="https://i.pinimg.com/474x/a3/b4/47/a3b4478e76417c8be0fe3fad1b005b0d.jpg" alt="Italian Cuisine">
+                
+                   
+                    <div class="image-description">Italian Cuisine</div>
+                    <button class="availability-button">Available</button>
+                    <button class="sold-out-button">Sold Out</button>
+                </div>
+                <div class="image-container">
+                   <img src="https://i.pinimg.com/474x/27/c6/45/27c6450a6a51b99ad2c44e7ddb10d4df.jpg" alt="Japanese Cuisine">
+               
+                   
+                    <div class="image-description">Japanese Cuisine</div>
+                    <button class="availability-button">Available</button>
+                    <button class="sold-out-button">Sold Out</button>
+                </div>
+                <div class="image-container">
+                    <img src="https://i.pinimg.com/474x/68/33/27/6833270a19b8f28524841895a921f7ea.jpg" alt="Dubai Cuisine">
+                
+                   
+                    <div class="image-description">Dubai Cuisine</div>
+                    <button class="availability-button">Available</button>
+                    <button class="sold-out-button">Sold Out</button>
+                </div>
+                <!-- <div class="image-container"> -->
+                    <!-- <img src="img/pilau.jpg" alt="Kenyan Cuisine"> -->
+                
+                   
+                    <!-- <div class="image-description">Kenyan Cuisine</div> -->
+                    <!-- <button class="availability-button">Available</button> -->
+                    <!-- <button class="sold-out-button">Sold Out</button> -->
+                <!-- </div> -->
+                <div class="image-container">
+                    <img src="https://i.pinimg.com/474x/4f/99/25/4f9925400b7a868738f76317289f64ef.jpg" alt="Indian Cuisine">
+                
+                   
+                    <div class="image-description">Indian Cuisine</div>
+                    <button class="availability-button">Available</button>
+                    <button class="sold-out-button">Sold Out</button>
+                </div>
+                <div class="image-container">
+                    <img src="https://i.pinimg.com/474x/64/e8/0f/64e80fa537921ca0011e0f540a3b0cb7.jpg" alt="Kenyan Cuisine">
+                    <div class="image-description">Kenyan Cuisine</div>
+                    <button class="availability-button">Available</button>
+                    <button class="sold-out-button">Sold Out</button>
+                </div>
+            </div>
+        </div>
+        
+        <p>In the bustling world of culinary delights, finding the perfect restaurant that suits your taste, dietary restrictions, and current mood can be a daunting task. Enter FoodieFinder, your ultimate guide to discovering the best dining experiences tailored just for you.Whether you’re a passionate food lover, a health-conscious eater, or a curious traveler, FoodieFinder promises to revolutionize the way you explore food.
+            At <a href="#">Foodie Finder</a> experience contemporary mix of tasty meals and drinks that will blow your mind away.
+            <a href="mailto:whyinn2023@gmail.com?subject=Reservation">MAKE RESERVATION</a>
+        </p>
+        <div class="net">
+            <div class="maps">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31911.39599130791!2d36.88558443955079!3d-1.2128149999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f3695f5e97d%3A0x6261a251656321c2!2sPine%20and%20Dine%20Restaurant%20-%20Kastemil%20Business%20center!5e0!3m2!1sen!2ske!4v1721380745651!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UpYkwhzep0U?si=n38i2AmJyIVoB_91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div > 
+
+    </div>
+
+    <footer>
+        <p>North St, Eastern Bypass, FOODIE, Co. Johnspiel - Copyright 2024 &#169</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
