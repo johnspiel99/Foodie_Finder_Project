@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const location = document.getElementById('location').value;
         const image = document.getElementById('image').value;
         const newRestaurant = { name, cuisine, location, image, available: true };
+        co
 
         fetch('http://localhost:3000/restaurants', {
             method: 'POST',
@@ -115,4 +116,5 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "contact_us.html";
     });
     console.log(restaurantList)
+
 });

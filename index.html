@@ -8,22 +8,28 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <img src="img/image.png" alt="Foodie Cuisine">
-        </header>
         <nav>
+            <img src="img/image.png" alt="Foodie Cuisine">
             <a href="#">HOME</a>
             <a href="#">MENU</a>
             <a href="#">ORDER ONLINE</a>
             <a href="#">GIFT VOUCHER</a>
-            <a href="#">CATERING</a>
+            <a href="#net">CATERING</a>
             <!-- <a href="#">CONTACT US</a> -->
-            <button class="contactUsBtn">CONTACT US</button>
+            <button class="btnLogin-popup">CONTACT US</button>
             <div class="search-container">
                 <input type="text" class="search-box" placeholder="Search...">
                 <button class="search-button">Search</button>
             </div>
         </nav>
+        <header class="hero">
+            <div class="hero-content">
+              <h1>Welcome to Foodie Finder</h1>
+              <p>Discover the best restaurants near you</p>
+              <a href="#restaurants" class="cta-button">Explore Now</a>
+            </div>
+        </header>
+        
     </div>
 
     <div class="main">
@@ -33,7 +39,7 @@
                 <input type="text" id="name" placeholder="Restaurant Name" required>
                 <input type="text" id="cuisine" placeholder="Cuisine Type" required>
                 <input type="text" id="location" placeholder="Location" required>
-                <input type="file" id="image" accept="image/*" required>
+                <input type="text" id="image" required>
                 <button type="submit">Add Restaurant</button>
             </form>
         </div>
@@ -99,7 +105,8 @@
             At <a href="#">Foodie Finder</a> experience contemporary mix of tasty meals and drinks that will blow your mind away.
             <a href="mailto:whyinn2023@gmail.com?subject=Reservation">MAKE RESERVATION</a>
         </p>
-        <div class="net">
+        <div class="net" id="net">
+    
             <div class="maps">
                 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31911.39599130791!2d36.88558443955079!3d-1.2128149999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f3695f5e97d%3A0x6261a251656321c2!2sPine%20and%20Dine%20Restaurant%20-%20Kastemil%20Business%20center!5e0!3m2!1sen!2ske!4v1721380745651!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
